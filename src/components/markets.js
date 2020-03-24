@@ -1,10 +1,11 @@
 import React from "react";
+import TableData from "./market_item";
 
-const Markets = props => {
-  console.log(props);
+const Markets = ({ market }) => {
   return (
     <div>
       <h1>Markets</h1>
+      <TableData market={market} />
     </div>
   );
 };
